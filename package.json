@@ -1,8 +1,8 @@
 {
-  "name": "@polkadot/ts",
+  "name": "@tetcoin/ts",
   "version": "0.3.59",
   "description": "Typescript definitions that are not (yet) available on https://github.com/DefinitelyTyped/DefinitelyTyped",
-  "repository": "https://github.com/polkadot-js/ts.git",
+  "repository": "https://github.com/tetcoin-js/ts.git",
   "author": "Jaco Greeff <jacogr@gmail.com>",
   "license": "ISC",
   "resolutions": {
@@ -10,8 +10,8 @@
   },
   "scripts": {
     "build": "./build.sh",
-    "build:release": "polkadot-ci-ghact-build --skip-beta",
-    "lint": "polkadot-dev-run-lint --skip-eslint",
+    "build:release": "tetcoin-ci-ghact-build --skip-beta",
+    "lint": "tetcoin-dev-run-lint --skip-eslint",
     "test": "echo \"No 'yarn run test' available\""
   },
   "dependencies": {
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@polkadot/dev": "^0.61.21",
+    "@tetcoin/dev": "^0.61.21",
     "@types/node": "^14.14.19"
   }
 }
